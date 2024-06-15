@@ -1,0 +1,353 @@
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    margin-top: 0.6%;
+    padding: 0;
+    font-size: 80%;
+  }
+  
+  nav li {
+    margin-right: 20px;
+
+  }
+
+.header-top
+{
+    height: 80px;
+    width: 100%;
+    
+}
+
+.header-row {
+
+    margin: 0% 7%;
+    display: flex;
+    width: 86%;
+    height: 80px;
+    
+}
+
+.header-nav
+{
+    margin: 30px 0;
+    margin-left: 2%;
+}
+
+.header-nav-ul{
+    column-gap: 10px;
+    font-weight: bold;
+    font-family: "Roboto" , "Arial";
+}
+
+.Icons{
+    margin-left: auto;
+    height: 23%;
+    margin-top: 30px; 
+    width: 20%;
+}
+
+.Icon-el{
+    height: 100%;
+    padding-right: 3%;
+    padding-left: 3%;
+} 
+
+.Icon-logo
+{
+    margin: 20px 0px;
+    height: 30%;
+}
+
+
+
+
+
+
+
+
+.main_body{
+    margin: 0px;
+    height: 2720px;
+    width: 100%;
+    background-color: #EEEEEE;
+}
+
+
+
+.block_1{
+    padding-top: 50px;
+    padding-left: 65px;
+    height: 340px;
+    width: 85%;
+}
+
+.bl1_El{
+    display: flex;
+    height: 100px;
+}
+
+.bl1_Text{
+    width: 600px;
+    font-family: "Roboto" , "Arial";
+
+}
+
+.image_wallet{
+    margin-left: auto;
+    margin-top: 25px;
+    height: 300px;
+
+}
+
+
+
+.block_2{
+    padding-top: 65px;
+    margin-left: 7%;
+    margin-right: 7%;;
+    height: 408px;
+    width: 86%;
+}
+
+.blocks-deposit-cards{
+   
+    display: flex;
+    width: 100%;
+
+    
+}
+
+.deposit-card{
+ 
+    margin: 1.5%;
+    height: 270px;
+    width: 22%;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+
+
+.header-cards{
+    height: 80px;
+}
+
+.header-cards-img{
+    margin: 20px;
+    margin-bottom: 0px;
+    height:60px ;   
+    width: 80%;
+
+}
+
+.header-card-text{
+    height: 130px;
+    width: 80%;
+    margin-left: 20px;
+}
+
+.hct-row{
+    display: flex;
+    margin: 5px;
+    margin-bottom: 0px;
+    height: 30px;
+    padding-top: 0%;
+    font-family: "Roboto" , "Arial";
+}
+
+
+.p_1{
+    font-size: 14px;
+    color: #687082;
+}
+
+
+.p_2{
+    margin: 0px;
+    margin-left: auto;
+    margin-top: 4%;
+    font-size: 16px;
+    color:  #162136;
+    font-weight: bold;
+}
+
+.p_2Big{
+    font-size: 24px;
+    margin: 0;
+    margin-left: auto;
+    margin-top: 4%;
+}
+
+.p_2Last{
+    padding-left: 16%;
+}
+
+
+.card-butn{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #039BE5;
+    color: #FFFFFF;
+    border: 0px;
+}
+
+
+
+.block_3{
+    margin-top: 88px;
+    margin-left: 7%;
+    margin-right: 7%;;
+    width: 86%;
+}
+
+.block_3_0{
+    height: 40%;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 16px;
+
+}
+
+
+.bl3-lvl-1_{
+    display: flex;
+    height: 46%;
+    padding-top: 3.5%; 
+
+}
+
+
+.bl3-lvl-1-el{
+    width: 29%;
+    margin: 2%;
+    margin-top: 0%; 
+    margin-bottom: 0px;
+    box-shadow: 0px 2px 2px -2px #ada9a9
+}
+
+
+
+
+
+.bl3-lvls_{
+    display: flex;
+    height: 11%;   
+}
+
+
+
+.bl3-lvls-el{
+    width: 29%;
+    height: 100%;
+    margin: 2%;
+    margin-top: 0%; 
+    margin-bottom: 0px;
+    box-shadow: 0px 2px 2px -2px #ada9a9
+}
+
+.bl3-footer{
+    height: 30px;
+    width: 100%;
+}
+
+
+.f-roboto{
+    font-family: "Roboto";
+}
+
+
+
+
+.img-car{
+    width: 100%;
+    height: 60%;
+}
+
+
+
+.date{
+    font-size: 60%;
+    
+    color:  #687082;
+}
+
+.date-lvl-1{
+    margin: 0px;
+    margin-bottom: 0%;
+    padding-top: 10%;
+    padding-bottom: 6%
+
+}
+
+
+
+.bl3-text{
+    font-size: 80%;
+    margin-top: 10%;
+    margin-bottom: 0px;
+}
+
+.date-lvl{
+    margin: 0;
+    padding-top: 4%;
+    padding-bottom: 6%;
+}
+
+.Size-h{
+    size: 40%;
+    margin-bottom: 0%;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-top{
+    height: 80px;
+    width: 100%;
+    background-color: #e0f5ff;
+}
+
+
+.footer-row {
+
+    margin: 0% 7%;
+    display: flex;
+    width: 86%;
+    height: 80px;
+    
+}
+
+
+.footer-icon-logo{
+    margin: 30px 0px;
+    height: 25%;
+    
+}
+
+.footer-logo{
+    height: 100%;
+}
+
+.footer-text{
+    padding-top: 40px;
+    margin: 0px;
+    padding-left: 2.5%;
+    font-size: 55%;
+    color: #687082;
+}
