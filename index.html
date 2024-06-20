@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Practice</title>
   <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="script.js" defer></script>
 </head>
 <body>
 
@@ -13,27 +14,61 @@
   <header>
     <div class="header-top">
       <div class="header-row">
-          <div class="Icon-logo">
-            <img src="task_2/Logo.png" width="168px" height="32px">
+
+          <div class="header-nav-ul">
+                <div class="menu_icon">
+                    <div class="menu_icon_el1"></div>
+                    <div class="menu_icon_el2"></div>
+                    <div class="menu_icon_el1"></div>
+                    <div class="block-tab-ul">
+                      <ul class="tab-ul f-roboto">
+                        <li class="tab-ul-li"><a href="#" class="tab-ul-li__el">Вклады</a></li>
+                        <li class="tab-ul-li"><a href="#" class="tab-ul-li__el">Кредиты</a></li>
+                        <li class="tab-ul-li"><a href="#" class="tab-ul-li__el">Займы</a></li>
+                        <li class="tab-ul-li"><a href="#" class="tab-ul-li__el">Карты</a></li>
+                        <li class="tab-ul-li"><a href="#" class="tab-ul-li__el">Ипотека</a></li>
+                        <li class="tab-ul-li"><a href="#" class="tab-ul-li__el">Инвестиции</a></li>
+                        <li class="tab-ul-li"><a href="#" class="tab-ul-li__el">Бизнес</a></li>
+                        <li class="tab-ul-li"><a href="#" class="tab-ul-li__el">Новости</a></li>
+                        <li class="tab-ul-li"><a href="#" class="tab-ul-li__el">Ещё</a></li>
+      
+                      </ul>
+                    </div>
+                </div>
+
+
+
+
+              
+
           </div>
 
-        <nav class="header-nav">
-          <ul class="header-nav-ul">
-            <li>Вклады</li>
-            <li>Кредиты</li>
-            <li>Займы</li>
-            <li>Карты</li>
-            <li>Ипотека</li>
-            <li>Инвестиции</li>
-            <li>Бизнес</li>
-            <li>Новости</li>
-            <li>Ещё</li>
-          </ul>
+
+
+          <div class="header-row-logo">
+            <img src="task_2/Logo.svg" class="header-logo__icon">
+          </div>
+
+          
+        <nav class="header-row-tab">
+          <div class="row-tab">
+            <span class="tab__el">Вклады</span>
+            <span class="tab__el">Кредиты</span>
+            <span class="tab__el">Займы</span>
+            <span class="tab__el">Карты</span>
+            <span class="tab__el">Ипотека</span>
+            <span class="tab__el">Инвестиции</span>
+            <span class="tab__el">Бизнес</span>
+            <span class="tab__el">Новости</span>
+            <span class="tab__el">Ещё</span>
+          </div>
         </nav>
 
-        <div class="Icons">
-          <img src="task_2/Icon (1).svg" class="Icon-el">
-          <img src="task_2/Icon (2).svg" class="Icon-el">
+        <div class="header-row-icons">
+          <div class="row-icons">
+              <img src="task_2/Icon (1).svg" class="header__icon1">
+              <img src="task_2/Icon (2).svg" class="header__icon2">
+          </div>
         </div>
       </div>
     </div>
@@ -41,433 +76,671 @@
 
  <!--............................................................................................................................................................................................................................................-->     
 
-  <div class="main_body">
+  <div class="body_main">
+    <div class="webpage">
+        <div class="block1">
 
-    <div class="block_1">
-      <div class="bl1_El">
-        <h2 class="bl1_Text">Поможем подобрать вклады по вашим потребностям</h2>
-        <img src="task_2/wallet-dynamic-gradient.png" class="image_wallet" alt="image wallet">
+          <div class="block1-text">
+            <h2 class="webpage__text_h">Поможем подобрать вклады по вашим потребностям</h2>
+            <p class="webpage__text">Fusce porta auctor bibendum. Donec convallis tellus risus,
+              pharetra facilisis leo bibendum eget. Ut sit amet commodo nunc. Phasellus hendrerit, dui quis mollis eleifend, 
+              lacus mauris accumsan lacus, ac cursus mi augue a justo. Aliquam erat volutpat. </p>
+          </div>
+
+          <img src="task_2/wallet-dynamic-gradient.png" class="block1-img_wallet" alt="image wallet">
+
+
+        </div>
+
+
+
+    <!--............................................................................................................................................................................................................................................-->     
+       <div class="block2">
+
+          <!--Первый блок депозитных карт-->
+          <div class="block2-text">
+              <h2 class="webpage__text_h">Вклады для души</h2>
+              <p class="webpage__text">Fusce porta auctor bibendum. Donec convallis tellus risus, 
+                pharetra facilisis leo bibendum eget. Ut sit amet commodo nunc. Phasellus hendrerit, dui quis mollis </p>
+          </div>
+
+          <div class="block-deposit-card">
+            <div class="scroller">
+                      <!--Описание одной карты-->
+                      <div class="deposit-card">
+                          <div class="deposit-card_alignment">
+
+                                <div class="card-header">
+                                  <div class="card-header_row">
+                                      <img src="task_2/Logo-alfa_bank.svg" class="card-header__img">
+                                      <div class="card-header__text f-roboto">
+                                        <span class="cht__el">Свои правила с банки.ру</span>
+                                      </div>
+                                  </div>
+                                </div>
+
+
+                                <div class="card-body">
+                                  <div class="card-body-text">
+
+                                      <div class="card-body-text-row ">
+                                        <span class="card-body-text-row__el1">Ставка,%</span>
+                                        <span class="card-body-text-row__el2 card-body-text-row__el2_Big">от 9,3%</span>
+                                      </div>
+
+                                      <div class="card-body-text-row">
+                                        <span class="card-body-text-row__el1">Срок</span>
+                                        <span class="card-body-text-row__el2">181 дн.</span>
+                                      </div>
+
+                                      <div class="card-body-text-row">
+                                        <span class="card-body-text-row__el1">Сумма</span>
+                                        <span class="card-body-text-row__el2">30 000-10 000 000 ₽</span>
+                                      </div>
+
+                                  </div>
+
+                                  <div class="card-block-button">
+                                      <button class="card-button">Открыть вклад</button>
+                                  </div>
+                                </div>
+
+                        </div>
+                      </div>
+                      <!------------------Следующая карта---------------------------->
+                      <div class="deposit-card">
+                        <div class="deposit-card_alignment">
+
+                              <div class="card-header">
+                                <div class="card-header_row">
+                                    <img src="task_2/Logo-alfa_bank.svg" class="card-header__img">
+                                    <div class="card-header__text f-roboto">
+                                      <span class="cht__el">Свои правила с банки.ру 0</span>
+                                    </div>
+                                </div>
+                              </div>
+
+
+                              <div class="card-body">
+                                <div class="card-body-text">
+
+                                    <div class="card-body-text-row ">
+                                      <span class="card-body-text-row__el1">Ставка,%</span>
+                                      <span class="card-body-text-row__el2 card-body-text-row__el2_Big">от 9,3%</span>
+                                    </div>
+
+                                    <div class="card-body-text-row">
+                                      <span class="card-body-text-row__el1">Срок</span>
+                                      <span class="card-body-text-row__el2">181 дн.</span>
+                                    </div>
+
+                                    <div class="card-body-text-row">
+                                      <span class="card-body-text-row__el1">Сумма</span>
+                                      <span class="card-body-text-row__el2">30 000-10 000 000 ₽</span>
+                                    </div>
+
+                                </div>
+
+                                <div class="card-block-button">
+                                    <button class="card-button">Открыть вклад</button>
+                                </div>
+                              </div>
+
+                      </div>
+                    </div>
+                <!------------------Следующая карта---------------------------->
+
+                <div class="deposit-card">
+                  <div class="deposit-card_alignment">
+
+                        <div class="card-header">
+                          <div class="card-header_row">
+                              <img src="task_2/Logo-alfa_bank.svg" class="card-header__img">
+                              <div class="card-header__text f-roboto">
+                                <span class="cht__el">Свои правила с банки.ру 1</span>
+                              </div>
+                          </div>
+                        </div>
+
+
+                        <div class="card-body">
+                          <div class="card-body-text">
+
+                              <div class="card-body-text-row ">
+                                <span class="card-body-text-row__el1">Ставка,%</span>
+                                <span class="card-body-text-row__el2 card-body-text-row__el2_Big">от 9,3%</span>
+                              </div>
+
+                              <div class="card-body-text-row">
+                                <span class="card-body-text-row__el1">Срок</span>
+                                <span class="card-body-text-row__el2">181 дн.</span>
+                              </div>
+
+                              <div class="card-body-text-row">
+                                <span class="card-body-text-row__el1">Сумма</span>
+                                <span class="card-body-text-row__el2">30 000-10 000 000 ₽</span>
+                              </div>
+
+                          </div>
+
+                          <div class="card-block-button">
+                              <button class="card-button">Открыть вклад</button>
+                          </div>
+                        </div>
+
+                </div>
+              </div>
+                <!------------------Следующая карта---------------------------->
+                <div class="deposit-card">
+                  <div class="deposit-card_alignment">
+
+                        <div class="card-header">
+                          <div class="card-header_row">
+                              <img src="task_2/Logo-alfa_bank.svg" class="card-header__img">
+                              <div class="card-header__text f-roboto">
+                                <span class="cht__el">Свои правила с банки.ру 2</span>
+                              </div>
+                          </div>
+                        </div>
+
+
+                        <div class="card-body">
+                          <div class="card-body-text">
+
+                              <div class="card-body-text-row ">
+                                <span class="card-body-text-row__el1">Ставка,%</span>
+                                <span class="card-body-text-row__el2 card-body-text-row__el2_Big">от 9,3%</span>
+                              </div>
+
+                              <div class="card-body-text-row">
+                                <span class="card-body-text-row__el1">Срок</span>
+                                <span class="card-body-text-row__el2">181 дн.</span>
+                              </div>
+
+                              <div class="card-body-text-row">
+                                <span class="card-body-text-row__el1">Сумма</span>
+                                <span class="card-body-text-row__el2">30 000-10 000 000 ₽</span>
+                              </div>
+
+                          </div>
+
+                          <div class="card-block-button">
+                              <button class="card-button">Открыть вклад</button>
+                          </div>
+                        </div>
+
+                </div>
+              </div>
+
+              </div>
+
+            </div>
+
+
+          </div>
+    <!--............................................................................................................................................................................................................................................-->     
+
+
+    <div class="block2">
+
+      <!--Второй блок депозитных карт-->
+      <div class="block2-text">
+          <h2 class="webpage__text_h">Вклады с повышенным процентом</h2>
+          <p class="webpage__text">On the other hand, we denounce with righteous indignation and dislike men who are so  </p>
       </div>
-      <p class="bl1_Text">Fusce porta auctor bibendum. Donec convallis tellus risus,
-         pharetra facilisis leo bibendum eget. Ut sit amet commodo nunc. Phasellus hendrerit, dui quis mollis eleifend, 
-         lacus mauris accumsan lacus, ac cursus mi augue a justo. Aliquam erat volutpat. </p>
-    </div>
 
-    <div class="block_2">
+      <div class="block-deposit-card">
+        <div class="scroller">
+                  <!--Описание одной карты-->
+                  <div class="deposit-card">
+                    <div class="deposit-card_alignment">
 
- <!--............................................................................................................................................................................................................................................-->     
+                          <div class="card-header">
+                            <div class="card-header_row">
+                                <img src="task_2/Logo-alfa_bank.svg" class="card-header__img">
+                                <div class="card-header__text f-roboto">
+                                  <span class="cht__el">Свои правила с банки.ру 3</span>
+                                </div>
+                            </div>
+                          </div>
 
 
-      <!--Первый блок депозитных карт-->
-      <h2 class="bl1_Text">Вклады для души</h2>
-      <p class="bl1_Text">Fusce porta auctor bibendum. Donec convallis tellus risus, 
-        pharetra facilisis leo bibendum eget. Ut sit amet commodo nunc. Phasellus hendrerit, dui quis mollis eleifend, lacus </p>
-        
-      <div class="blocks-deposit-cards">
+                          <div class="card-body">
+                            <div class="card-body-text">
+
+                                <div class="card-body-text-row ">
+                                  <span class="card-body-text-row__el1">Ставка,%</span>
+                                  <span class="card-body-text-row__el2 card-body-text-row__el2_Big">от 9,3%</span>
+                                </div>
+
+                                <div class="card-body-text-row">
+                                  <span class="card-body-text-row__el1">Срок</span>
+                                  <span class="card-body-text-row__el2">181 дн.</span>
+                                </div>
+
+                                <div class="card-body-text-row">
+                                  <span class="card-body-text-row__el1">Сумма</span>
+                                  <span class="card-body-text-row__el2">30 000-10 000 000 ₽</span>
+                                </div>
+
+                            </div>
+
+                            <div class="card-block-button">
+                                <button class="card-button">Открыть вклад</button>
+                            </div>
+                          </div>
+
+                  </div>
+                </div>
+                    <!------------------Следующая карта---------------------------->
+                    <div class="deposit-card">
+                      <div class="deposit-card_alignment">
+
+                            <div class="card-header">
+                              <div class="card-header_row">
+                                  <img src="task_2/Logo-alfa_bank.svg" class="card-header__img">
+                                  <div class="card-header__text f-roboto">
+                                    <span class="cht__el">Свои правила с банки.ру</span>
+                                  </div>
+                              </div>
+                            </div>
+
+
+                            <div class="card-body">
+                              <div class="card-body-text">
+
+                                  <div class="card-body-text-row ">
+                                    <span class="card-body-text-row__el1">Ставка,%</span>
+                                    <span class="card-body-text-row__el2 card-body-text-row__el2_Big">от 9,3%</span>
+                                  </div>
+
+                                  <div class="card-body-text-row">
+                                    <span class="card-body-text-row__el1">Срок</span>
+                                    <span class="card-body-text-row__el2">181 дн.</span>
+                                  </div>
+
+                                  <div class="card-body-text-row">
+                                    <span class="card-body-text-row__el1">Сумма</span>
+                                    <span class="card-body-text-row__el2">30 000-10 000 000 ₽</span>
+                                  </div>
+
+                              </div>
+
+                              <div class="card-block-button">
+                                  <button class="card-button">Открыть вклад</button>
+                              </div>
+                            </div>
+
+                    </div>
+                  </div>
+            
+                    <!------------------Следующая карта---------------------------->
+                    <div class="deposit-card">
+                      <div class="deposit-card_alignment">
+
+                            <div class="card-header">
+                              <div class="card-header_row">
+                                  <img src="task_2/Logo-alfa_bank.svg" class="card-header__img">
+                                  <div class="card-header__text f-roboto">
+                                    <span class="cht__el">Свои правила с банки.ру</span>
+                                  </div>
+                              </div>
+                            </div>
+
+
+                            <div class="card-body">
+                              <div class="card-body-text">
+
+                                  <div class="card-body-text-row ">
+                                    <span class="card-body-text-row__el1">Ставка,%</span>
+                                    <span class="card-body-text-row__el2 card-body-text-row__el2_Big">от 9,3%</span>
+                                  </div>
+
+                                  <div class="card-body-text-row">
+                                    <span class="card-body-text-row__el1">Срок</span>
+                                    <span class="card-body-text-row__el2">181 дн.</span>
+                                  </div>
+
+                                  <div class="card-body-text-row">
+                                    <span class="card-body-text-row__el1">Сумма</span>
+                                    <span class="card-body-text-row__el2">30 000-10 000 000 ₽</span>
+                                  </div>
+
+                              </div>
+
+                              <div class="card-block-button">
+                                  <button class="card-button">Открыть вклад</button>
+                              </div>
+                            </div>
+
+                    </div>
+                  </div>
+            <!------------------Следующая карта---------------------------->
+
+            <div class="deposit-card">
+              <div class="deposit-card_alignment">
+
+                    <div class="card-header">
+                      <div class="card-header_row">
+                          <img src="task_2/Logo-alfa_bank.svg" class="card-header__img">
+                          <div class="card-header__text f-roboto">
+                            <span class="cht__el">Свои правила с банки.ру</span>
+                          </div>
+                      </div>
+                    </div>
+
+
+                    <div class="card-body">
+                      <div class="card-body-text">
+
+                          <div class="card-body-text-row ">
+                            <span class="card-body-text-row__el1">Ставка,%</span>
+                            <span class="card-body-text-row__el2 card-body-text-row__el2_Big">от 9,3%</span>
+                          </div>
+
+                          <div class="card-body-text-row">
+                            <span class="card-body-text-row__el1">Срок</span>
+                            <span class="card-body-text-row__el2">181 дн.</span>
+                          </div>
+
+                          <div class="card-body-text-row">
+                            <span class="card-body-text-row__el1">Сумма</span>
+                            <span class="card-body-text-row__el2">30 000-10 000 000 ₽</span>
+                          </div>
+
+                      </div>
+
+                      <div class="card-block-button">
+                          <button class="card-button">Открыть вклад</button>
+                      </div>
+                    </div>
+
+            </div>
+          </div>
+
+          </div>
+        </div>
+
+
+      </div>
+
+    <!--............................................................................................................................................................................................................................................-->     
+
+    <div class="block2">
+
+      <!--Третий блок депозитных карт-->
+      <div class="block2-text">
+          <h2 class="webpage__text_h">Вклады со страховкой</h2>
+          <p class="webpage__text">On the other hand, we denounce with righteous indignation and dislike
+             men who are so beguiled and demoralized by the charms of pleasure ,</p>
+      </div>
+
+      <div class="block-deposit-card">
+
+        <div class="scroller">
         <!--Описание одной карты-->
         <div class="deposit-card">
-            <div class="header-cards">
-              <img src="task_2/header-card.png" class="header-cards-img">
-            </div>
-            <div class="header-card-text">
-              <div class="hct-row ">
-                <p class="p_1">Ставка,%</p>
-                <p class="p_2 p_2Big">от 9,3%</p>
+          <div class="deposit-card_alignment">
+
+                <div class="card-header">
+                  <div class="card-header_row">
+                      <img src="task_2/Logo-alfa_bank.svg" class="card-header__img">
+                      <div class="card-header__text f-roboto">
+                         <span class="cht__el">Свои правила с банки.ру</span>
+                      </div>
+                  </div>
+                </div>
+
+
+                <div class="card-body">
+                  <div class="card-body-text">
+
+                      <div class="card-body-text-row ">
+                        <span class="card-body-text-row__el1">Ставка,%</span>
+                        <span class="card-body-text-row__el2 card-body-text-row__el2_Big">от 9,3%</span>
+                      </div>
+
+                      <div class="card-body-text-row">
+                        <span class="card-body-text-row__el1">Срок</span>
+                        <span class="card-body-text-row__el2">181 дн.</span>
+                      </div>
+
+                      <div class="card-body-text-row">
+                        <span class="card-body-text-row__el1">Сумма</span>
+                        <span class="card-body-text-row__el2">30 000-10 000 000 ₽</span>
+                      </div>
+
+                  </div>
+
+                  <div class="card-block-button">
+                      <button class="card-button">Открыть вклад</button>
+                  </div>
+                </div>
+
+        </div>
+      </div>
+        <!------------------Следующая карта---------------------------->
+
+        <div class="deposit-card">
+          <div class="deposit-card_alignment">
+
+                <div class="card-header">
+                  <div class="card-header_row">
+                      <img src="task_2/Logo-alfa_bank.svg" class="card-header__img">
+                      <div class="card-header__text f-roboto">
+                         <span class="cht__el">Свои правила с банки.ру</span>
+                      </div>
+                  </div>
+                </div>
+
+
+                <div class="card-body">
+                  <div class="card-body-text">
+
+                      <div class="card-body-text-row ">
+                        <span class="card-body-text-row__el1">Ставка,%</span>
+                        <span class="card-body-text-row__el2 card-body-text-row__el2_Big">от 9,3%</span>
+                      </div>
+
+                      <div class="card-body-text-row">
+                        <span class="card-body-text-row__el1">Срок</span>
+                        <span class="card-body-text-row__el2">181 дн.</span>
+                      </div>
+
+                      <div class="card-body-text-row">
+                        <span class="card-body-text-row__el1">Сумма</span>
+                        <span class="card-body-text-row__el2">30 000-10 000 000 ₽</span>
+                      </div>
+
+                  </div>
+
+                  <div class="card-block-button">
+                      <button class="card-button">Открыть вклад</button>
+                  </div>
+                </div>
+
+        </div>
+      </div>
+        <!------------------Следующая карта---------------------------->
+
+        <div class="deposit-card">
+          <div class="deposit-card_alignment">
+
+                <div class="card-header">
+                  <div class="card-header_row">
+                      <img src="task_2/Logo-alfa_bank.svg" class="card-header__img">
+                      <div class="card-header__text f-roboto">
+                         <span class="cht__el">Свои правила с банки.ру</span>
+                      </div>
+                  </div>
+                </div>
+
+
+                <div class="card-body">
+                  <div class="card-body-text">
+
+                      <div class="card-body-text-row ">
+                        <span class="card-body-text-row__el1">Ставка,%</span>
+                        <span class="card-body-text-row__el2 card-body-text-row__el2_Big">от 9,3%</span>
+                      </div>
+
+                      <div class="card-body-text-row">
+                        <span class="card-body-text-row__el1">Срок</span>
+                        <span class="card-body-text-row__el2">181 дн.</span>
+                      </div>
+
+                      <div class="card-body-text-row">
+                        <span class="card-body-text-row__el1">Сумма</span>
+                        <span class="card-body-text-row__el2">30 000-10 000 000 ₽</span>
+                      </div>
+
+                  </div>
+
+                  <div class="card-block-button">
+                      <button class="card-button">Открыть вклад</button>
+                  </div>
+                </div>
+
+        </div>
+      </div>
+      <!------------------Следующая карта---------------------------->
+
+      <div class="deposit-card">
+        <div class="deposit-card_alignment">
+
+              <div class="card-header">
+                <div class="card-header_row">
+                    <img src="task_2/Logo-alfa_bank.svg" class="card-header__img">
+                    <div class="card-header__text f-roboto">
+                       <span class="cht__el">Свои правила с банки.ру</span>
+                    </div>
+                </div>
               </div>
-              <div class="hct-row ">
-                <p class="p_1">Срок</p>
-                <p class="p_2">181 дн.</p>
+
+
+              <div class="card-body">
+                <div class="card-body-text">
+
+                    <div class="card-body-text-row ">
+                      <span class="card-body-text-row__el1">Ставка,%</span>
+                      <span class="card-body-text-row__el2 card-body-text-row__el2_Big">от 9,3%</span>
+                    </div>
+
+                    <div class="card-body-text-row">
+                      <span class="card-body-text-row__el1">Срок</span>
+                      <span class="card-body-text-row__el2">181 дн.</span>
+                    </div>
+
+                    <div class="card-body-text-row">
+                      <span class="card-body-text-row__el1">Сумма</span>
+                      <span class="card-body-text-row__el2">30 000-10 000 000 ₽</span>
+                    </div>
+
+                </div>
+
+                <div class="card-block-button">
+                    <button class="card-button">Открыть вклад</button>
+                </div>
               </div>
 
-              <div class="hct-row ">
-                <p class="p_1">Сумма</p>
-                <p class="p_2 p_2Last">30 000-10 000 000 ₽</p>
-              </div>
-            </div>
+      </div>
+    </div>
 
-
-            <button class="card-butn">Открыть вклад</button>
-
-          </div>
-
-          <div class="deposit-card">
-            <div class="header-cards">
-              <img src="task_2/header-card.png" class="header-cards-img">
-            </div>
-            <div class="header-card-text">
-              <div class="hct-row ">
-                <p class="p_1">Ставка,%</p>
-                <p class="p_2 p_2Big">от 9,3%</p>
-              </div>
-              <div class="hct-row ">
-                <p class="p_1">Срок</p>
-                <p class="p_2">181 дн.</p>
-              </div>
-
-              <div class="hct-row ">
-                <p class="p_1">Сумма</p>
-                <p class="p_2 p_2Last">30 000-10 000 000 ₽</p>
-              </div>
-            </div>
-
-
-            <button class="card-butn">Открыть вклад</button>            
-          </div>
-  
-          <div class="deposit-card">
-            <div class="header-cards">
-              <img src="task_2/header-card.png" class="header-cards-img">
-            </div>
-            <div class="header-card-text">
-              <div class="hct-row ">
-                <p class="p_1">Ставка,%</p>
-                <p class="p_2 p_2Big">от 9,3%</p>
-              </div>
-              <div class="hct-row ">
-                <p class="p_1">Срок</p>
-                <p class="p_2">181 дн.</p>
-              </div>
-
-              <div class="hct-row ">
-                <p class="p_1">Сумма</p>
-                <p class="p_2 p_2Last">30 000-10 000 000 ₽</p>
-              </div>
-            </div>
-
-
-            <button class="card-butn">Открыть вклад</button>  
-          </div>
-  
-          <div class="deposit-card">
-            <div class="header-cards">
-              <img src="task_2/header-card0.png" class="header-cards-img">
-            </div>
-            <div class="header-card-text">
-              <div class="hct-row ">
-                <p class="p_1">Ставка,%</p>
-                <p class="p_2 p_2Big">от 9,3%</p>
-              </div>
-              <div class="hct-row ">
-                <p class="p_1">Срок</p>
-                <p class="p_2">181 дн.</p>
-              </div>
-
-              <div class="hct-row ">
-                <p class="p_1">Сумма</p>
-                <p class="p_2 p_2Last">30 000-10 000 000 ₽</p>
-              </div>
-            </div>
-
-
-            <button class="card-butn">Открыть вклад</button>  
-          </div>
+  </div>
 
         </div>
 
 
       </div>
- <!--............................................................................................................................................................................................................................................-->     
+    <!--............................................................................................................................................................................................................................................-->     
+    <!--Третий блок страницы (Полезные материалы)-->
+
+              <div class="block3">
+                  <h2 class="f-roboto">Полезные материалы</h2>
+
+                  <div class="block3-body">
+                      <div class="block3-body-grid">
+                        
+                        <div class="grid-header-row-el">
+                          <img src="task_2/img-car.png" class="img-car">
+                          <h4 class="f-roboto">Как открыть свой таксопарк</h4>
+                          <span class="date f-roboto">20.05.2024</span>
+                        </div>
 
 
-      <div class="block_2">
+                        <div class="grid-header-row-el">
+                          <img src="task_2/img-car.png" class="img-car">
+                          <h4 class="f-roboto">Как открыть ИП без посещения налоговой</h4>
+                          <span class="date f-roboto">20.05.2024</span>
+                        </div>
 
-        <!--Второй блок депозитных карт-->
-        <h2 class="bl1_Text">Вклады с повышенным процентом</h2>
-        <p class="bl1_Text">On the other hand, we denounce with righteous indignation and dislike men who are so </p>
-          
-        <div class="blocks-deposit-cards">
-          <!--Описание одной карты-->
-          <div class="deposit-card">
-              <div class="header-cards">
-                <img src="task_2/header-card.png" class="header-cards-img">
-              </div>
-              <div class="header-card-text">
-                <div class="hct-row ">
-                  <p class="p_1">Ставка,%</p>
-                  <p class="p_2 p_2Big">от 9,3%</p>
-                </div>
-                <div class="hct-row ">
-                  <p class="p_1">Срок</p>
-                  <p class="p_2">181 дн.</p>
-                </div>
-  
-                <div class="hct-row ">
-                  <p class="p_1">Сумма</p>
-                  <p class="p_2 p_2Last">30 000-10 000 000 ₽</p>
-                </div>
-              </div>
-  
-  
-              <button class="card-butn">Открыть вклад</button>
-  
-            </div>
-  
-            <div class="deposit-card">
-              <div class="header-cards">
-                <img src="task_2/header-card.png" class="header-cards-img">
-              </div>
-              <div class="header-card-text">
-                <div class="hct-row ">
-                  <p class="p_1">Ставка,%</p>
-                  <p class="p_2 p_2Big">от 9,3%</p>
-                </div>
-                <div class="hct-row ">
-                  <p class="p_1">Срок</p>
-                  <p class="p_2">181 дн.</p>
-                </div>
-  
-                <div class="hct-row ">
-                  <p class="p_1">Сумма</p>
-                  <p class="p_2 p_2Last">30 000-10 000 000 ₽</p>
-                </div>
-              </div>
-  
-  
-              <button class="card-butn">Открыть вклад</button>            
-            </div>
-    
-            <div class="deposit-card">
-              <div class="header-cards">
-                <img src="task_2/header-card.png" class="header-cards-img">
-              </div>
-              <div class="header-card-text">
-                <div class="hct-row ">
-                  <p class="p_1">Ставка,%</p>
-                  <p class="p_2 p_2Big">от 9,3%</p>
-                </div>
-                <div class="hct-row ">
-                  <p class="p_1">Срок</p>
-                  <p class="p_2">181 дн.</p>
-                </div>
-  
-                <div class="hct-row ">
-                  <p class="p_1">Сумма</p>
-                  <p class="p_2 p_2Last">30 000-10 000 000 ₽</p>
-                </div>
-              </div>
-  
-  
-              <button class="card-butn">Открыть вклад</button>  
-            </div>
-    
-            <div class="deposit-card">
-              <div class="header-cards">
-                <img src="task_2/header-card0.png" class="header-cards-img">
-              </div>
-              <div class="header-card-text">
-                <div class="hct-row ">
-                  <p class="p_1">Ставка,%</p>
-                  <p class="p_2 p_2Big">от 9,3%</p>
-                </div>
-                <div class="hct-row ">
-                  <p class="p_1">Срок</p>
-                  <p class="p_2">181 дн.</p>
-                </div>
-  
-                <div class="hct-row ">
-                  <p class="p_1">Сумма</p>
-                  <p class="p_2 p_2Last">30 000-10 000 000 ₽</p>
-                </div>
-              </div>
-  
-  
-              <button class="card-butn">Открыть вклад</button>  
-            </div>
-  
-          </div>
-  
-  
-        </div>
 
- <!--............................................................................................................................................................................................................................................-->     
+                        <div class="grid-header-row-el">
+                          <img src="task_2/img-car.png" class="img-car">
+                          <h4 class="f-roboto">Что такое гаратийное письмо и в каких случаях оно необходимо</h4>
+                          <span class="date f-roboto">20.05.2024</span>
+                        </div>
 
-        <div class="block_2">
 
-          <!--Третий блок депозитных карт-->
-          <h2 class="bl1_Text">Вклады со страховкой</h2>
-          <p class="bl1_Text">On the other hand, we denounce with righteous indignation and dislike men who are
-             so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire,  </p>
-            
-          <div class="blocks-deposit-cards">
-            <!--Описание одной карты-->
-            <div class="deposit-card">
-                <div class="header-cards">
-                  <img src="task_2/header-card.png" class="header-cards-img">
-                </div>
-                <div class="header-card-text">
-                  <div class="hct-row ">
-                    <p class="p_1">Ставка,%</p>
-                    <p class="p_2 p_2Big">от 9,3%</p>
-                  </div>
-                  <div class="hct-row ">
-                    <p class="p_1">Срок</p>
-                    <p class="p_2">181 дн.</p>
-                  </div>
-    
-                  <div class="hct-row ">
-                    <p class="p_1">Сумма</p>
-                    <p class="p_2 p_2Last">30 000-10 000 000 ₽</p>
-                  </div>
-                </div>
-    
-    
-                <button class="card-butn">Открыть вклад</button>
-    
-              </div>
-    
-              <div class="deposit-card">
-                <div class="header-cards">
-                  <img src="task_2/header-card.png" class="header-cards-img">
-                </div>
-                <div class="header-card-text">
-                  <div class="hct-row ">
-                    <p class="p_1">Ставка,%</p>
-                    <p class="p_2 p_2Big">от 9,3%</p>
-                  </div>
-                  <div class="hct-row ">
-                    <p class="p_1">Срок</p>
-                    <p class="p_2">181 дн.</p>
-                  </div>
-    
-                  <div class="hct-row ">
-                    <p class="p_1">Сумма</p>
-                    <p class="p_2 p_2Last">30 000-10 000 000 ₽</p>
-                  </div>
-                </div>
-    
-    
-                <button class="card-butn">Открыть вклад</button>            
-              </div>
-      
-              <div class="deposit-card">
-                <div class="header-cards">
-                  <img src="task_2/header-card.png" class="header-cards-img">
-                </div>
-                <div class="header-card-text">
-                  <div class="hct-row ">
-                    <p class="p_1">Ставка,%</p>
-                    <p class="p_2 p_2Big">от 9,3%</p>
-                  </div>
-                  <div class="hct-row ">
-                    <p class="p_1">Срок</p>
-                    <p class="p_2">181 дн.</p>
-                  </div>
-    
-                  <div class="hct-row ">
-                    <p class="p_1">Сумма</p>
-                    <p class="p_2 p_2Last">30 000-10 000 000 ₽</p>
-                  </div>
-                </div>
-    
-    
-                <button class="card-butn">Открыть вклад</button>  
-              </div>
-      
-              <div class="deposit-card">
-                <div class="header-cards">
-                  <img src="task_2/header-card0.png" class="header-cards-img">
-                </div>
-                <div class="header-card-text">
-                  <div class="hct-row ">
-                    <p class="p_1">Ставка,%</p>
-                    <p class="p_2 p_2Big">от 9,3%</p>
-                  </div>
-                  <div class="hct-row ">
-                    <p class="p_1">Срок</p>
-                    <p class="p_2">181 дн.</p>
-                  </div>
-    
-                  <div class="hct-row ">
-                    <p class="p_1">Сумма</p>
-                    <p class="p_2 p_2Last">30 000-10 000 000 ₽</p>
-                  </div>
-                </div>
-    
-    
-                <button class="card-butn">Открыть вклад</button>  
-              </div>
-    
-            </div>
-    
-    
-          </div>
- <!--............................................................................................................................................................................................................................................-->     
- <!--Третий блок страницы (Полезные материалы)-->
+                            
+                        <div class="grid-row-el">
+                          <span class="grid-row-el__text  f-roboto">Не только НДФЛ: какие ещё налоги затронет реформа</span>
+                          <span class="date grid-row-el__date f-roboto">29.05.2024</span>                      
+                        </div>
 
-          <div class="block_3">
-              <h2 class="f-roboto">Полезные материалы</h2>
+                        <div class="grid-row-el">
+                          <span class="grid-row-el__text  f-roboto">В Bank of China ответили на сообщения о
+                            прекращении приема платежей из РФ</span>
+                          <span class="date grid-row-el__date f-roboto">21.02.2024</span>               
+                        </div>
 
-              <div class="block_3_0">
+                        <div class="grid-row-el">
+                          <span class="grid-row-el__text  f-roboto">Hyundai Motor продает свой завод в Росси за 10 тыс. рублей</span>
+                          <span class="date grid-row-el__date f-roboto">19.12.2023</span>                   
+                        </div>   
 
-                <div class="bl3-lvl-1_">
-                  <div class="bl3-lvl-1-el">
-                    <img src="task_2/img-car.png" class="img-car">
-                    <p class="Size-h f-roboto">Как открыть свой таксопарк</p>
-                    <p class="date date-lvl-1 f-roboto">20.05.2024</p>
-                  </div>
 
-                  <div class="bl3-lvl-1-el">
-                    <img src="task_2/img-car.png" class="img-car">
-                    <p class="Size-h f-roboto">Как открыть ИП без посещения налоговой</p>
-                    <p class="date date-lvl-1 f-roboto">20.05.2024</p>
-                  </div>
+                        <div class="grid-row-el">
+                          <span class="grid-row-el__text  f-roboto">Системные банки получат 256 млрд рублей для кредитования МСП</span>
+                          <span class="date grid-row-el__date f-roboto">18.12.23</span>                     
+                        </div>
 
-                  <div class="bl3-lvl-1-el">
-                    <img src="task_2/img-car.png" class="img-car">
-                    <p class="Size-h f-roboto">Что такое гаратийное письмо и в каких случаях оно необходимо</p>
-                    <p class="date date-lvl-1 f-roboto">20.05.2024</p>
-                  </div>
-                </div>
-                
-                
-                <div class="bl3-lvls_">
-                    <div class="bl3-lvls-el">
-                      <p class="bl3-text f-roboto">Не только НДФЛ: какие ещё налоги затронет реформа</p>
-                      <p class="date date-lvl f-roboto">29.05.2024</p>                      
-                    </div>
 
-                    <div class="bl3-lvls-el">
-                      <p class="bl3-text f-roboto">В Bank of China ответили на сообщения о
-                        прекращении приема платежей из РФ</p>
-                      <p class="date date-lvl f-roboto">21.02.2024</p>               
-                    </div>
-                   
-                   
-                    <div class="bl3-lvls-el">
-                      <p class="bl3-text f-roboto">Hyundai Motor продает свой завод в Росси за 10 тыс. рублей</p>
-                      <p class="date date-lvl f-roboto">19.12.2023</p>                   
-                    </div>                    
-                </div>
-                
-                <div class="bl3-lvls_">
-                    <div class="bl3-lvls-el">
-                      <p class="bl3-text f-roboto">Системные банки получат 256 млрд рублей для кредитования МСП</p>
-                      <p class="date date-lvl f-roboto">18.12.23</p>                     
-                    </div>
-                </div>  
-              <div class="bl3-footer"></div>            
+                     
                           
-        </div>
+                </div>
+            </div>
 
-    </div>
+        </div>
  <!--............................................................................................................................................................................................................................................-->   +
-  </div>
+        </div>
+</div>
 <!--Подвал страницы-->
   <footer>
     <div class="footer-top">
+
+        <div class="row__all-deposits"><img src="task_2/Logo_all-diposit.svg"></div>
+
+
       <div class="footer-row">
-          <div class="footer-icon-logo">
-            <img src="task_2/Logo.png" class="footer-logo" >
+          <div class="footer-row-logo">
+            <img src="task_2/Logo.svg" class="footer-logo__icon" >
           </div>
 
-          <p class="footer-text f-roboto">САМЫЙ БОЛЬШОЙ ФИНАНСОВЫЙ МАРКЕТПЛЕЙС В РОССИИ*</p>
+          <div class="footer-row-text">
+            <span class="footer-text f-roboto">САМЫЙ БОЛЬШОЙ ФИНАНСОВЫЙ МАРКЕТПЛЕЙС В РОССИИ*</span>
+          </div>
 
-        <div class="Icons">
-          <img src="task_2/Icon (3).svg" class="Icon-el" >
-          <img src="task_2/Icon (4).svg" class="Icon-el" >
-          <img src="task_2/Icon (5).svg" class="Icon-el" >
-          <img src="task_2/Icon (6).svg" class="Icon-el" >
-          <img src="task_2/Icon (7).svg" class="Icon-el" >
+          <div class="footer-row-icons">
+              <div class="row-icons">
+                  <img src="task_2/Icon (3).svg" class="Icon-el" >
+                  <img src="task_2/Icon (4).svg" class="Icon-el" >
+                  <img src="task_2/Icon (5).svg" class="Icon-el" >
+                  <img src="task_2/Icon (6).svg" class="Icon-el" >
+                  <img src="task_2/Icon (7).svg" class="Icon-el" >
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
